@@ -20,8 +20,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hills Pilates",
-  description: "Strength. Balance. Control.",
+  title: "Hills Pilates | Bukit Jalil, Kuala Lumpur",
+  description:
+    "Strength. Balance. Control. Classical Pilates studio in Bukit Jalil City, Kuala Lumpur. Reformer, private & group classes.",
+  keywords: [
+    "Pilates",
+    "Bukit Jalil",
+    "Kuala Lumpur",
+    "reformer",
+    "fitness",
+    "Pilates studio",
+  ],
+  openGraph: {
+    title: "Hills Pilates | Bukit Jalil, Kuala Lumpur",
+    description:
+      "Strength. Balance. Control. Classical Pilates studio in Bukit Jalil City, Kuala Lumpur.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hills Pilates | Bukit Jalil, Kuala Lumpur",
+    description: "Strength. Balance. Control. Classical Pilates studio in Bukit Jalil City.",
+  },
 };
 
 export default function RootLayout({
